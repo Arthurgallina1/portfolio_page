@@ -1,3 +1,3 @@
 # portfolio_page
 
-This is my portfolio paged hosteed at:
+This is my portfolio that is currenlty under dev.
