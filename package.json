@@ -1,0 +1,16 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "my new portfolio",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --watch scss -o src/css"
+  },
+  "author": "Arthur Gallina",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.12.0",
+    "rallax.js": "^2.0.4",
+    "sass": "^1.22.10"
+  }
+}
