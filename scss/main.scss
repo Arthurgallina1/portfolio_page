@@ -76,7 +76,7 @@ ul {
 }
 
 .custom-toggler.navbar-toggler {
-    border-color: $gray;
+    border-color: $third-color;
 }
 .navbar-toggler-icon.custom {
     color: $third-color !important;
@@ -117,9 +117,9 @@ ul {
 
 
 #main {
-    //background-color: $primary-color;
-    background-color: #ecfcff;
-    background-color: #ecfcff;
+    height: 75vh;
+    background-color: $primary-color;
+    
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23b2fcff' stroke-width='1.8' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
         
     .main {
@@ -221,14 +221,23 @@ hr {
 #aboutme {
     padding: 60px 150px;
     background-color: $primary-color;
+    
+    h2 {
+        color: $gray;
+    }
+    h5 {
+        color: $cinza-claro;
+        font-family: 'Montserrat', sans-serif;
+
+    }
     span {
         color: $third-color;
     }
-    .img {
+    .img2 {
         display: flex;
         justify-content: center;
     }
-    img {
+    #profile {
         border-radius: 50%;
         border: 1px solid $cinza;
     }
@@ -381,7 +390,9 @@ hr {
 }
 #portfolio {
     padding: 60px 150px;
-    background-color: #f5f5f5;
+    background-color: $primary-color;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23b2fcff' stroke-width='1.8' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+
     span {
         color: $third-color;
     }
@@ -417,7 +428,7 @@ hr {
     }
     img{
         width: 460px;
-        height: 390px;
+        height: 300px;
     }
     .item{
         margin: 18px 0px;
@@ -425,7 +436,7 @@ hr {
        
         display: grid;
         grid-template-columns: 460px 1fr;
-        transition: 0.5s linear all;
+        transition: 0.4s linear all;
         &:hover{
             -webkit-box-shadow: 0px 0px 5px 1px rgba(150,150,150,0.75);
             -moz-box-shadow: 0px 0px 5px 0px rgba(150,150,150,0.75);

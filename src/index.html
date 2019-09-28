@@ -15,7 +15,8 @@
   src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
   crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
+  <script src="js/main.js" type="module"></script>
+    
     <title>Arthur Gallina | Full Stack Engineer</title>
 </head>
 <body>
@@ -61,8 +62,8 @@
 
 
     </section> -->
-    <section id="main">
-        <div class="main">
+    <section id="main" >
+        <div class="main pb-5">
             <div class="left-side"> 
                 <br><br>
                 <h1><strong>ARTHUR GALLINA</strong> </h1>
@@ -98,8 +99,8 @@
      
      <section id="aboutme">   
         <h1>about <span>me</span></h1> 
-        <div class="img">
-                <img src="img/aboutme.png" alt="" width="250" height="225">
+        <div class="img2">
+                <img src="img/aboutme.png" id="profile" class="rallax" alt="" width="250" height="225">
         </div><br>
         <div class="title">
                <!-- <div class="rect-div rect-div-3"></div> -->
@@ -143,52 +144,48 @@
             <div class="habilidades">
                     <div class="box">
                         <div class="img">
-                            <span class="fa-stack fa-2x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-code fa-stack-1x" style="color: white;"></i>
-                            </span>
+                            <img src="img/code.png" alt="">
                         </div>
                         <div class="tech">Frontend</div>
                         <div class="techs">                             
-                            <span> JavaScript </span>
-                            <span> HTML5</span>
-                            <span> CSS & SaSS</span>
-                            <span> Vue.js </span>
-                            <span> jQuery</span>                        
-                            <span> Bootstrap</span>
+                            <span> <img src="img/js.png" alt=""> JavaScript </span>
+                            <span><img src="img/html5.png" alt="">  HTML5</span>
+                            <span> <img src="img/sass.png" alt=""> CSS & SaSS</span>
+                            <span> <img src="img/vue.png" alt=""> Vue.js </span>
+                            <span> <img src="img/jquery.png" alt=""> jQuery</span>                        
+                            <span> <img src="img/bs.png" alt=""> Bootstrap</span>
                         </div>
                         
                 
                     </div>
                     <div class="box">   
                         <div class="img">
-                            <span class="fa-stack fa-2x">
+                            <img src="img/db.png" alt="">
+                            <!-- <span class="fa-stack fa-2x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-database fa-stack-1x" style="color: white;"></i>
-                            </span>
+                            </span> -->
                         </div>
                         <div class="tech">Backend</div>
                         <div class="techs">
-                            <span> PHP</span>       
-                            <span> NodeJS</span>
-                            <span> MySQL</span>
-                            <span> MongoDB</span>
-                            <span> Node.js</span>
+                            <span> <img src="img/php.png" alt=""> PHP</span>       
+                            <span> <img src="img/node.png" alt=""> Node.js</span>
+                            <span> <img src="img/mysql.png" alt=""> MySQL</span>
+                            <span> <img src="img/mongo.png" alt=""> MongoDB</span>
+                            
                         </div>
                     </div>
                     <div class="box">
                         <div class="img">
-                                <span class="fa-stack fa-2x">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-desktop fa-stack-1x" style="color: white;"></i>
-                                </span>
+                                <img src="img/monitor.png" alt="">
+
                             </div>
                             <div class="tech">Others</div>
                             <div class="techs">
                                     
-                                <span> Git </span>
-                                <span> npm </span>
-                                <span> Webpack </span>
+                                <span><img src="img/git.png" alt=""> Git </span>
+                                <span><img src="img/npm.png" alt=""> npm </span>
+                                <span><img src="img/webpack.png" alt=""> Webpack </span>
                             </div>
                 </div>
             </div>
@@ -242,7 +239,7 @@
 
             <div class="projects">
                 <div class="item">
-                    <div class="img"><img src="img/lorenzetti.png" alt=""></div>
+                    <div class="img"><img src="img/l3.png" alt=""></div>
                     <div class="descr">
                         <h5><strong> WEBSITE FOR A CONSTRUCTION COMPANY</strong></h5>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis tempore natus modi temporibus, necessitatibus consequatur numquam! Omnis id nesciunt mollitia!</p>
