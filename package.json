@@ -4,7 +4,7 @@
   "description": "my new portfolio",
   "main": "index.js",
   "scripts": {
-    "scss": "node-sass --watch scss -o src/css"
+    "scss": "node-sass --watch scss -o css"
   },
   "author": "Arthur Gallina",
   "license": "ISC",
