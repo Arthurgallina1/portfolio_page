@@ -40,7 +40,7 @@ $font-size: 20px;
 * {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-
+    scroll-behavior: smooth;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -450,12 +450,18 @@ hr {
 
     }
     .descr {
-        background-color: white;
-        color: #555555;
+        background-color: rgba(255,255,255, 0.3);
+        color: $gray;
         padding: 20px;
         display: flex;
         flex-flow: column wrap;
         justify-content: space-evenly;
+
+        p {
+            color: $cinza;
+            
+
+        }
         
     }
     .stack {

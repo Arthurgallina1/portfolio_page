@@ -18,7 +18,8 @@
 
 * {
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif; }
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth; }
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -303,12 +304,14 @@ hr {
   #portfolio p {
     font-family: 'Roboto', sans-serif; }
   #portfolio .descr {
-    background-color: white;
-    color: #555555;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #242739;
     padding: 20px;
     display: flex;
     flex-flow: column wrap;
     justify-content: space-evenly; }
+    #portfolio .descr p {
+      color: #555555; }
   #portfolio .stack {
     font-family: 'Roboto', sans-serif; }
     #portfolio .stack span {
