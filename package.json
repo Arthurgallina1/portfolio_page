@@ -9,7 +9,7 @@
   "author": "Arthur Gallina",
   "license": "ISC",
   "dependencies": {
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "rallax.js": "^2.0.4",
     "sass": "^1.22.10"
   }
